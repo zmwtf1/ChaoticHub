@@ -1,8 +1,4 @@
 -- Cracked by Nivalos
-getgenv().CH_LOAD = getgenv().CH_LOAD or false
-if getgenv().CH_LOAD then
-    return
-end
 s = Instance.new("Sound")
 function Som(p1)
     s.SoundId = "rbxassetid://" .. p1
